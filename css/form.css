@@ -1,0 +1,47 @@
+body {
+    background-color: #8b9190;
+    margin: 0;
+}
+
+
+.landing-page {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.feature {
+    margin-top: 40px;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#lista{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+    
+
+}
+footer{
+    height: 15  0px;
+    color: white;
+    background-color: 111111;
+    bottom: 0;
+    width: 100%;
+}
+
+.isso{
+    height: 50px;
+}
+
+.bg-light{
+    background-color: black;
+}
