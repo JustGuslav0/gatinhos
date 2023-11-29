@@ -1,5 +1,5 @@
 function funcionar(){
-    const element = document.getElementsByClassName("texto")[0];
+    const element = document.getElementsByClassName("display-4")[0];
     element.scrollIntoView();}
 
 function funcionar2(){
