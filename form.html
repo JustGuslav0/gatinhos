@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./css/form.css">
     <link rel="icon" href="img/192.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <title>Gatinhos</title>
 </head>
 <body>
@@ -15,49 +18,71 @@
             </button>
                 <ul id="lista">
                     <li class="nav-item active">
-                        <a id="sla" onclick=funcionar2()><p>Início</p></a>
+                        <a id="sla" onclick="funcionar()"><p>Início</p></a>
                     </li>
                     <li class="nav-item">
-                        <a id="sla2" onclick="funcionar()"><p id="contato">Contato</p></a>
+                        <a id="sla2" onclick="funcionar2()"><p id="recursos">Recursos</p></a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="sla3" onclick="funcionar3()"><p id="contato">Contato</p></a>
                     </li>
                 </ul>
         </nav>
     </div>
     <header class="landing-page">
-        <div class="container">
-            <h1 class="display-4">Bem-vindo à Sua Landing Page</h1>
-            <p class="lead">Uma breve descrição sobre o que você oferece.</p>
+        <div class="texto" id="inicio">
+            <div id="informacao">
+                <h1 class="display-4">Bem-vindo à Gutitos</h1>
+                <p class="lead">Bem-vindo ao "Gutitos"! Seu destino online para adoção de gatinhos fofos. 
+                    Conectamos amantes de gatos a companheiros peludos em busca de lares amorosos. 
+                    Explore perfis encantadores, faça parte da adoção responsável e encontre seu novo amigo felino. 
+                    Junte-se a nós em promover o bem-estar animal e transforme a vida de um "Gutito" hoje!
+                </p>
+            </div>  
         </div>
     </header>
 
     <section class="feature">
         <div class="container">
+            <h1 id="tituloRecursos" class="tituloRecursos">Recursos</div>
             <div class="row">
                 <div class="col-lg-4">
-                    <h2>Recurso 1</h2>
-                    <p>Descrição do recurso 1.</p>
+                    <img id="gatinhos" src="img/gatinho_dancante.gif">
+                    <h1 id="gatinhos">Gatinho Dançante</h1>
                 </div>
                 <div class="col-lg-4">
-                    <h2>Recurso 2</h2>
-                    <p>Descrição do recurso 2.</p>
+                        <img id="gatinhos" src="img/gatinhocomsono.gif">
+                        <h1 id="gatinhos">Gatinho Sonolento</h1>
                 </div>
                 <div class="col-lg-4">
-                    <h2>Recurso 3</h2>
-                    <p>Descrição do recurso 3.</p>
+                    <img id="gatinhos" src="img/gatinhobeijoca.gif">
+                    <h1 id="gatinhos">Gatinho Beijoca</h1>
                 </div>
             </div>
         </div>
-    
+    </section>
+    <div id="dentroForm" class="dentroForm">
+        <form>
+            <div id="tituloForm" class="tituloForm">Entre em contato:
+            </div>
+            <div class="form">
+                <div class="email">
+                <label for="email">Seu email:</label>
+                <input type="email" id="input" placeholder="Email">
+                </div>
+                <div class="senha">
+                <label for="exampleInputPassword1">Sua senha:</label>
+                <input type="password" id="input2" placeholder="Senha">
+                </div>
+                <button type="submit" id="botao">Enviar</button>
+            </div>
+        </form>
+    </div>
 
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">© 2023 Sua Marca</p>
-        </div>
+    <footer>
+            <p>© 2023 Gutitos</p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 <script src="java.js"></script>
 </html>

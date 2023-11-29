@@ -1,7 +1,13 @@
 function funcionar(){
-    const element = document.querySelector("#contato")
+    const element = document.getElementsByClassName("texto")[0];
+    element.scrollIntoView();}
 
+function funcionar2(){
+    const element = document.getElementsByClassName("tituloRecursos")[0];
+    element.scrollIntoView();
+}
 
-element.scrollIntoView({
-    top:100
-})}
+function funcionar3(){
+    const element = document.getElementsByClassName("dentroForm")[0];
+    element.scrollIntoView();
+}
